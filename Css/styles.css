@@ -1,0 +1,189 @@
+body{
+
+  margin :0px;
+}
+p{
+  color: #B05B3B;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.intro{
+  text-align: center;
+  background-image: url(first-back.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  width:100%
+
+
+}
+.Resturant-name{
+
+color:#753422;
+font-family: 'Bebas Neue', cursive;
+}
+.Subheading{
+
+  font-family: 'Allison', cursive;
+}
+.navbar-brand {
+
+  font-size: 2rem;
+  font-weight: bold;
+  color:#753422;
+}
+
+.navbar {
+
+  padding: 0 1.5rem  ;
+  background-color: grey;
+}
+
+.navitem {
+  padding: 0 18px;
+}
+.icon-image{
+  margin-top: 300px;
+
+  height: 100px;
+  width: 100px;
+
+
+}
+.abt{
+  text-align: center;
+  background-image: url(second-back.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+.abt-img{
+  height: 500px;
+  width: 500px;
+padding: 5%;
+border-radius:25%;
+
+}
+.abt-heading{
+  color:#753422;
+font-family: 'Bebas Neue', cursive;
+}
+.abt-para{
+  color: #B05B3B;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+.menu{
+  text-align:center;
+  background-image: url(third-back.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+.menu-heading{
+  color:#fff;
+  padding: 5%;
+  font-family: 'Bebas Neue', cursive;
+}
+.menu-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+}
+.menu-discp{
+  color:  #753422;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 2%;
+}
+.menu-abt{
+  color: #FFEBC9;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  width:30%;
+  margin: auto;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+height: 50px;
+width:50px;
+    outline: black;
+    background-color: #753422;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.contact-me{
+  text-align: center;
+}
+.footer-icon {
+  color: #B05B3B;
+  padding: 10px;
+}
+.conatct-me-heading{
+  font-family: 'Bebas Neue', cursive;
+  color:  #753422;
+  padding:5%;
+  width:50%;
+  margin: auto;
+
+}
+.conatct-me-subheading{
+  font-family: 'Bebas Neue', cursive;
+ color: #B05B3B;
+ margin-bottom: 20px;
+}
+.btn {
+  margin: 30px;
+  background: #b05a3b;
+  background-image: -webkit-linear-gradient(top, #b05a3b, #b05a3b);
+  background-image: -moz-linear-gradient(top, #b05a3b, #b05a3b);
+  background-image: -ms-linear-gradient(top, #b05a3b, #b05a3b);
+  background-image: -o-linear-gradient(top, #b05a3b, #b05a3b);
+  background-image: linear-gradient(to bottom, #b05a3b, #b05a3b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d79671;
+  background-image: -webkit-linear-gradient(top, #d79671, #ffebc9);
+  background-image: -moz-linear-gradient(top, #d79671, #ffebc9);
+  background-image: -ms-linear-gradient(top, #d79671, #ffebc9);
+  background-image: -o-linear-gradient(top, #d79671, #ffebc9);
+  background-image: linear-gradient(to bottom, #d79671, #ffebc9);
+  text-decoration: none;
+}
+@media screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1440px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .intro{
+    text-align: left;
+  }
+  .icon-image{
+    margin-left: 400px;
+  }
+.Resturant-name{
+  margin-top: 300px;
+}
+}
